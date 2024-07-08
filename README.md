@@ -1,82 +1,50 @@
-# [Start Bootstrap - Business Frontpage](https://startbootstrap.com/template/business-frontpage/)
+# My Portfolio Site
 
-[Business Frontpage](https://startbootstrap.com/template/business-frontpage/) is a basic business website template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+Welcome to the repository for my personal portfolio site. This site showcases my projects, skills, and professional journey. It's built with [Bootstrap](https://getbootstrap.com/) for a responsive design that looks great on any device.
 
 ## Preview
 
-[![Business Frontpage Preview](https://assets.startbootstrap.com/img/screenshots/templates/business-frontpage.png)](https://startbootstrap.github.io/startbootstrap-business-frontpage/)
-
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-business-frontpage/)**
+**[View Live Preview](#)**
+*Note: Replace the `#` with the URL of your live site.*
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-business-frontpage/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-business-frontpage.svg)](https://www.npmjs.com/package/startbootstrap-business-frontpage)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Download and Installation
+## Getting Started
 
-To begin using this template, choose one of the following options to get started:
+These instructions will get you a copy of my portfolio site up and running on your local machine for development and testing purposes.
 
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template/business-frontpage/)
-* Install via npm: `npm i startbootstrap-business-frontpage`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-business-frontpage.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-business-frontpage)
+### Prerequisites
 
-## Usage
+You need to have npm installed on your machine. npm is a package manager for JavaScript, and you can download it from [npmjs.com](https://www.npmjs.com/get-npm).
 
-### Basic Usage
+### Installation
 
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/adamtxl/adamtxl-fontPage.git
+2. Navigate to the project directory:
+  cd portfolio-site
+3. Install NPM packages:
+  npm install
+4. Start the project:
+  npm start
+This will open up a preview of the portfolio in your default browser, watch for changes to core files, and live reload the browser when changes are saved.
 
-### Advanced Usage
+Usage
+After installation, you can start editing the HTML and CSS files in the dist directory to customize your portfolio. The src directory contains the source files for advanced customization.
 
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
+Building the Project
+npm run build - Builds the entire project (HTML, CSS, JS, and assets).
+npm run clean - Deletes the dist directory to prepare for a fresh build.
+Contributing
+I welcome contributions to this project! Please feel free to fork the repository, make your changes, and submit a pull request.
 
-#### npm Scripts
+License
+This project is open source and available under the MIT License.
 
-* `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
-* `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
-* `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
-* `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
-* `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
-* `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
-* `npm run start:debug` runs the project in debug mode
-* `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
+Contact
+Your Name -  - adamtxl@hotmail.com
 
-You must have npm installed in order to use this build environment.
-
-### Contact Form
-
-The contact form available with this theme is prebuilt to use [SB Forms](https://startbootstrap.com/solution/contact-forms).
-SB Forms is a simple form solution for adding functional forms to your theme. Since this theme is prebuilt using our
-SB Forms markup, all you need to do is sign up for [SB Forms on Start Bootstrap](https://startbootstrap.com/solution/contact-forms).
-
-After signing up you will need to set the domain name your form will be used on, and you will then see your
-access key. Copy this and paste it into the `data-sb-form-api-token='API_TOKEN'` data attribute in place of
-`API_TOKEN`. That's it! Your forms will be up and running!
-
-If you aren't using SB Forms, simply delete the custom data attributes from the form, and remove the link above the
-closing `</body>` tag to SB Forms.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-business-frontpage/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/template/business-frontpage/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
-
-* <https://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE) license.
+Project Link: https://github.com/adamtxl/adamtxl-frontPage
