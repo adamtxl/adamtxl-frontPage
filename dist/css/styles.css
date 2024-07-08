@@ -10881,3 +10881,6 @@ p::first-line {
   padding-top: 60px;
 }
 
+.upsize {
+  font-size: 1.2em;
+}
