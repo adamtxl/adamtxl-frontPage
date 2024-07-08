@@ -9575,12 +9575,12 @@ progress {
 }
 
 .about {
-
+color: #0c63e4;
   width: 100%;
   text-indent: 1.5em;
   font-family: "Trebuchet MS", Verdana, sans-serif;
-  text-shadow: white 1 1 0px;
-  background: linear-gradient(#492A07, #074909, #072649, #490746);
+  text-shadow: white 1 1 2px;
+  background: linear-gradient(#0c63e4, white);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
