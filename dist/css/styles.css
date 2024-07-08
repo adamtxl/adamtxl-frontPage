@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Business Frontpage v5.0.9 (https://startbootstrap.com/template/business-frontpage)
-* Copyright 2013-2023 Start Bootstrap
+* Copyright 2013-2024 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE)
 */
 /*!
@@ -10831,4 +10831,20 @@ textarea.form-control-lg {
   height: 4rem;
   width: 4rem;
   font-size: 2rem;
+}
+
+.about {
+  color: white;
+  width: 100%;
+  text-indent: 1.5em;
+}
+
+p::first-line {
+  text-indent: 1.5em; 
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; // Horizontally center the content
+  align-items: center; // Vertically center (if needed)
 }
