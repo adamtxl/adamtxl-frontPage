@@ -10845,6 +10845,6 @@ p::first-line {
 
 .image-container {
   display: flex;
-  justify-content: center; // Horizontally center the content
-  align-items: center; // Vertically center (if needed)
+  justify-content: center; 
+  align-items: center;
 }
