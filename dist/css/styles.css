@@ -6471,6 +6471,7 @@ progress {
 
 .fw-bolder {
   font-weight: bolder !important;
+  color: #0d6efd !important;
 }
 
 .lh-1 {
@@ -6669,6 +6670,8 @@ progress {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+ 
+  background-size: cover;
 }
 
 .bg-black {
@@ -9401,5 +9404,20 @@ color: #0c63e4;
   background-image: url('../assets/background.jpeg'); 
   background-size: cover; 
   background-position: center; 
+  color: white;
+}
+
+.about-box {
+  background-color: black;
+  border: 1px solid white;
+  padding: 20px;
+  margin: 20px;
+  opacity: .9;
+}
+
+.bg-gif {
+  background-image: url('../assets/Aug-08-2024\ 18-24-09.gif');
+  background-size: cover;
+  background-position: center;
   color: white;
 }
