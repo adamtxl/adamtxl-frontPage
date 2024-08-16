@@ -2289,7 +2289,7 @@ progress {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-color: #3b8aff;
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
   display: flex;
@@ -9420,4 +9420,12 @@ color: #0c63e4;
   background-size: cover;
   background-position: center;
   color: white;
+}
+
+.opaque-box {
+  background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black background */
+  border: 1px solid white;
+  padding: 1px;
+  margin: 1px;
+  opacity: 1; /* Ensure the box itself is fully opaque */
 }
