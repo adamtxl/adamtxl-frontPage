@@ -14,11 +14,7 @@
   text-indent: 1.5em;
   font-family: "Trebuchet MS", Verdana, sans-serif;
 
-  /* Your gradient text effect (cool, but optional) */
-  background: linear-gradient(#0c63e4, white);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+
 }
 
 .image-container {
@@ -87,4 +83,8 @@ body.bg-image {
   padding: 1px;
   margin: 1px;
   opacity: 1;
+}
+
+#about, #projects, #contact {
+  scroll-margin-top: 90px;
 }
