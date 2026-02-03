@@ -146,48 +146,135 @@
         <!-- Features section-->
         <section class="py-5 border-bottom opaque-box text-light" id="projects">
             <h2 class="display-5 fw-bolder text-center mb-5">Projects</h2>
+
             <div class="container px-5 my-5">
+
+                <!-- FLAGSHIP: Dart Solutions Platform -->
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <div class="p-4 rounded-3 border border-light" style="background: rgba(0,0,0,0.55);">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3">
+                                    <i class="bi bi-cpu"></i>
+                                </div>
+                                <div>
+                                    <h3 class="fw-bolder mb-1">Dart Solutions Platform</h3>
+                                    <div class="text-white-50">Production IoT telemetry, alerting, and monitoring</div>
+                                </div>
+                            </div>
+
+                            <p class="mb-3">
+                                A production monitoring platform built for commercial facilities to ingest real-time
+                                sensor data,
+                                surface actionable alerts, and provide dashboards for operational visibility.
+                                I owned the system end-to-end as the sole engineer.
+                            </p>
+
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <h4 class="h6 fw-bolder text-white mb-2">Highlights</h4>
+                                    <ul class="text-white-50 ps-3 mb-0">
+                                        <li>Deployed across <strong>2 commercial sites</strong> with <strong>50+
+                                                sensors</strong></li>
+                                        <li>Alerts delivered in <strong>under 2 minutes</strong> of sensor transmission
+                                        </li>
+                                        <li>Designed ingestion, alerting, dashboards, and production operations end to
+                                            end</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <h4 class="h6 fw-bolder text-white mb-2">Stack</h4>
+                                    <ul class="text-white-50 ps-3 mb-0">
+                                        <li><strong>Frontend:</strong> React</li>
+                                        <li><strong>Backend:</strong> FastAPI</li>
+                                        <li><strong>Data:</strong> PostgreSQL / TimescaleDB</li>
+                                        <li><strong>Infra:</strong> OCI, Fly.io, Vercel</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 d-flex flex-wrap gap-2">
+                                <!-- Replace # with real links when you have them -->
+                                <a class="btn btn-outline-light btn-sm" href="#contact">Request screenshots /
+                                    walkthrough</a>
+                                <a class="btn btn-primary btn-sm" href="#contact">Contact about this project</a>
+                            </div>
+
+                            <div class="text-white-50 mt-3" style="font-size: 0.95rem;">
+                                Note: This is a production system; code and detailed artifacts available upon request.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECONDARY: WanderWise + Energy Audit Portal -->
                 <div class="row gx-5">
+
+                    <!-- WanderWise -->
                     <div class="col-lg-6 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white opaque-box rounded-3 mb-3 ">
-                            <h2>𝕎𝕎</h2>
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                            <h2 class="mb-0">𝕎𝕎</h2>
                         </div>
-                        <h2 class="h4 fw-bolder">WanderWise</h2>
-                        <p>WanderWise is a comprehensive travel planning application designed to streamline the process
-                            of organizing trips. It offers features such as detailed trip itineraries, dynamic packing
-                            lists, and map locations, ensuring that users have all their travel information in one
-                            place. Built with React, Redux, Express, and PostgreSQL, WanderWise showcases my ability to
-                            integrate multiple technologies to create a user-friendly and efficient solution for travel
-                            planning. Whether you're preparing for a short getaway or a long journey, WanderWise helps
-                            you stay organized and ready for your adventure.</p>
-                        <p><img src="assets/ww-tile-portfolio.png" alt="wanderwise" width="500px" height="auto"
-                                class="img-fluid"></p>
-                        <p><a class="text-decoration-none" href="https://wanderwise-at.fly.dev/">
-                                View the project
-                                <i class="bi bi-arrow-right"></i>
-                            </a></p>
+
+                        <h3 class="h4 fw-bolder">WanderWise</h3>
+                        <p class="text-white-50">
+                            A travel planning app that centralizes itineraries, packing lists, and map locations into
+                            one place.
+                            Built to streamline trip organization and improve the travel planning experience.
+                        </p>
+
+                        <div class="text-white-50 mb-2">
+                            <strong>Stack:</strong> React, Redux, Express, PostgreSQL
+                        </div>
+
+                        <p class="mb-3">
+                            <img src="assets/ww-tile-portfolio.png" alt="WanderWise" class="img-fluid rounded">
+                        </p>
+
+                        <div class="d-flex flex-wrap gap-2">
+                            <a class="btn btn-primary btn-sm" href="https://wanderwise-at.fly.dev/" target="_blank"
+                                rel="noopener">
+                                Live Demo <i class="bi bi-box-arrow-up-right"></i>
+                            </a>
+                        </div>
                     </div>
+
+                    <!-- Energy Audit Portal -->
                     <div class="col-lg-6 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                                class="bi bi-building"></i>
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                            <i class="bi bi-building"></i>
                         </div>
-                        <h2 class="h4 fw-bolder">Energy Audit Portal</h2>
-                        <p>A proof-of-concept web application designed to replace RJ Energy Solutions' Google Sheets
-                            workflow for tracking equipment, costs, and carbon footprint. The portal allows auditors and
-                            employees to input data on facility equipment and provides recommendations to increase
-                            energy efficiency and reduce CO2 expenditure. Built with React.js, Express.js, Node.js,
-                            Redux, Passport.js, and Material UI, the app features a user-friendly interface for managing
-                            facility information, conducting energy audits, and reviewing completed audits.</p>
-                        <p> <img src="assets/auditportal.png" alt="energy-portal" width="500px" height=auto
-                                class="img-fluid"> </br></p>
-                        <p><a class="text-decoration-none" href="https://github.com/adamtxl/energy-solutions-portal">
-                                View on github
-                                <i class="bi bi-arrow-right"></i>
-                            </a> </p>
+
+                        <h3 class="h4 fw-bolder">Energy Audit Portal <span class="text-white-50">(Proof of
+                                Concept)</span></h3>
+                        <p class="text-white-50">
+                            A proof-of-concept web app to replace a Google Sheets workflow for tracking facility
+                            equipment, costs,
+                            and carbon footprint. Supports data entry, audit review, and recommendations.
+                        </p>
+
+                        <div class="text-white-50 mb-2">
+                            <strong>Stack:</strong> React, Express, Node.js, Redux, Passport.js, Material UI
+                        </div>
+
+                        <p class="mb-3">
+                            <img src="assets/auditportal.png" alt="Energy Audit Portal" class="img-fluid rounded">
+                        </p>
+
+                        <div class="d-flex flex-wrap gap-2">
+                            <a class="btn btn-outline-light btn-sm"
+                                href="https://github.com/adamtxl/energy-solutions-portal" target="_blank"
+                                rel="noopener">
+                                GitHub <i class="bi bi-github"></i>
+                            </a>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
+
 
         <!-- Contact section-->
         <section class="bg-light py-5" id="contact">
@@ -199,15 +286,15 @@
                     <p class="upsize mb-0">I'd love to hear from you, whether it's software solutions or project advice,
                         I'm happy to discuss! Click the button below to email me, or reach out to me at the following:
                     </p>
-                    <p class="upsize mb-0"><strong>Phone:</strong> 701-200-0150</p>
-                    <p class="upsize mb-0"><strong>Email:</strong> adamtxl@hotmail.com </p>
+                    <p class="upsize mb-0"><strong>Phone:</strong> (218) 303-7742</p>
+                    <p class="upsize mb-0"><strong>Email:</strong> adam@troxellendeavors.com</p>
                     <p class="upsize mb-0"> <strong>LinkedIn</strong> <a
                             href="https://www.linkedin.com/in/adam-troxell1/">Adam Troxell</a></p>
                     <p class="upsize mb-0"><strong> GitHub: </strong> <a href="https://github.com/adamtxl">Adam
                             Troxell</a></p>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <a href="mailto:adamtxl@hotmail.com">
+                    <a href="mailto:adam@troxellendeavors.com">
                         <button type="button" class="btn btn-primary">
                             Contact me
                         </button>
