@@ -5,8 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="author" content="" />
-    <meta name="description"
-        content="Adam Troxell - Full-Stack Engineer and former CTO specializing in IoT platforms, real-time systems, and production engineering. React, FastAPI, PostgreSQL/TimescaleDB, OCI." />
+    <meta name="description" content="Adam Troxell - Full-Stack Engineer and former CTO specializing in IoT platforms, real-time systems, and production engineering. React, FastAPI, PostgreSQL/TimescaleDB, OCI." />
     <title>Adam Troxell Portfolio site</title>
     <link rel="icon" type="image/x-icon" href="dist\assets\favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
@@ -57,15 +56,15 @@
                             <div class="row align-items-center gy-3 mb-4">
                                 <div class="col-md-8">
                                     <h1 class="text-white fw-bolder mb-2">Adam Troxell</h1>
-                                    <p class="text-white-50 mb-0">
+                                    <p class="text-light mb-0">
                                         Full-Stack Engineer • Former CTO • IoT / Platform Builder
                                     </p>
                                 </div>
 
                                 <div class="col-md-4 text-center text-md-end">
                                     <img src="dist/assets/Adam.jpg" alt="Adam Troxell"
-                                        class="img-fluid rounded-5 border border-light"
-                                        style="max-width: 190px; height: auto;">
+                                        class="img-fluid rounded-3 border border-light"
+                                        style="max-width: 160px; height: auto;">
                                 </div>
                                 <div class="d-flex flex-wrap gap-2 mt-3">
                                     <a class="btn btn-primary btn-sm fw-bold" href="dist/assets/resume.pdf"
@@ -84,7 +83,7 @@
                             <div class="row g-4 mb-4">
                                 <div class="col-md-6">
                                     <h2 class="h4 fw-bolder text-white mb-2">Recent Engineering Impact</h2>
-                                    <ul class="text-white-50 ps-3 mb-0">
+                                    <ul class="text-light ps-3 mb-0">
                                         <li>Sole engineer and CTO for a production IoT platform deployed across 2
                                             commercial sites</li>
                                         <li>Designed and operated real-time telemetry ingestion for 50+ active sensors
@@ -98,7 +97,7 @@
 
                                 <div class="col-md-6">
                                     <h2 class="h4 fw-bolder text-white mb-2">Technology Stack</h2>
-                                    <ul class="text-white-50 ps-3 mb-0">
+                                    <ul class="text-light ps-3 mb-0">
                                         <li><strong>Frontend:</strong> React, Redux, Bootstrap</li>
                                         <li><strong>Backend:</strong> FastAPI, Node.js, Express</li>
                                         <li><strong>Data:</strong> PostgreSQL, TimescaleDB</li>
@@ -115,13 +114,13 @@
                             </div>
 
                             <p class="about">
-                                Hi, I’m Adam Troxell, a hands-on full-stack engineer and former CTO who builds
+                                Hi, I'm Adam Troxell, a hands-on full-stack engineer and former CTO who builds
                                 production systems end to end. Most recently, I served as the sole engineer at RJ Energy
                                 Solutions, designing and deploying a real-time IoT platform across 2 commercial sites
                                 with 50+ sensors, including ingestion, alerting (under 2 minutes), dashboards, and
-                                production operations. I build pragmatic software that’s reliable, maintainable, and
+                                production operations. I build pragmatic software that's reliable, maintainable, and
                                 aligned with real user needs, drawing on a background in technical support, solutions
-                                ownership, and customer-facing leadership. I’m currently focused on roles where I can
+                                ownership, and customer-facing leadership. I'm currently focused on roles where I can
                                 own meaningful problems across backend, platform, and product engineering and ship
                                 systems that deliver real-world impact.
                             </p>
@@ -132,237 +131,239 @@
             </header>
         </section>
         <!-- Features section-->
+        <section class="py-5 border-bottom opaque-box text-light" id="projects">
+            <h2 class="display-5 fw-bolder text-center mb-5">Projects</h2>
 
+            <div class="container px-5 my-5">
 
-        <!-- FLAGSHIP: Dart Solutions Platform -->
-        <div class="row mb-5">
-            <div class="col-12">
-                <div class="p-4 rounded-3 border border-light" style="background: rgba(0,0,0,0.55);">
-                    <div class="d-flex align-items-center gap-3 mb-3">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3">
-                            <i class="bi bi-cpu"></i>
+                <!-- FLAGSHIP: Dart Solutions Platform -->
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <div class="p-4 rounded-3 border border-light" style="background: rgba(0,0,0,0.8);">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3">
+                                    <i class="bi bi-cpu"></i>
+                                </div>
+                                <div>
+                                    <h3 class="fw-bolder mb-1">Dart Solutions Platform</h3>
+                                    <div class="text-light">Real-time IoT monitoring platform for commercial facilities</div>
+                                </div>
+                            </div>
+
+                            <p class="text-light mb-3">
+                                Built as sole engineer and CTO at RJ Energy Solutions—a production system delivering 
+                                real-time sensor telemetry, automated alerting, and operational dashboards for 
+                                commercial facilities across two sites and 50+ active sensors.
+                            </p>
+
+                            <div class="mb-4 text-center">
+                                <img src="dist/assets/DSPflow.png"
+                                    alt="Dart Solutions Platform architecture diagram showing LoRa sensors, ChirpStack, backend API, database, and dashboard"
+                                    class="img-fluid rounded border border-light"
+                                    style="max-width: 100%; background: rgba(0,0,0,0.4); padding: 10px;">
+                                <div class="text-light mt-2" style="font-size: 0.9rem;">
+                                    High-level architecture of the Dart Solutions Platform IoT data pipeline
+                                </div>
+                            </div>
+
+                            <div class="mb-4 text-center">
+                                <img src="dist/assets/grafana-portfolio.png"
+                                    alt="Production Grafana dashboard showing real-time sensor telemetry, cost tracking, and multi-sensor health monitoring"
+                                    class="img-fluid rounded border border-light"
+                                    style="max-width: 100%; background: rgba(0,0,0,0.4); padding: 10px;">
+                                <div class="text-light mt-2" style="font-size: 0.9rem;">
+                                    Production monitoring dashboard: real-time sensor data, cost tracking, and operational metrics
+                                </div>
+                            </div>
+
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-6">
+                                    <h4 class="h6 fw-bolder text-white mb-2">Problem</h4>
+                                    <p class="text-light">
+                                        Client needed real-time visibility into distributed industrial equipment with 
+                                        immediate alerting on critical conditions. Existing tools required manual monitoring 
+                                        and lacked multi-site coordination.
+                                    </p>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <h4 class="h6 fw-bolder text-white mb-2">Constraints</h4>
+                                    <ul class="text-light ps-3 mb-0">
+                                        <li>Multi-tenant architecture from day one</li>
+                                        <li>Sub-2-minute alert latency requirement</li>
+                                        <li>LoRaWAN codec complexity for multiple sensor types</li>
+                                        <li>24/7 uptime expectations on production sites</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-6">
+                                    <h4 class="h6 fw-bolder text-white mb-2">Key Engineering Decisions</h4>
+                                    <ul class="text-light ps-3 mb-0">
+                                        <li><strong>ChirpStack</strong> for LoRaWAN gateway management and sensor orchestration</li>
+                                        <li><strong>FastAPI</strong> for low-latency webhook processing and API endpoints</li>
+                                        <li><strong>TimescaleDB</strong> for time-series optimized sensor data storage</li>
+                                        <li><strong>Webhook-based alerting</strong> for immediate notification delivery</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <h4 class="h6 fw-bolder text-white mb-2">Results</h4>
+                                    <ul class="text-light ps-3 mb-0">
+                                        <li>Deployed across <strong>2 commercial sites</strong> with <strong>50+ active sensors</strong></li>
+                                        <li>Alerts delivered in <strong>under 2 minutes</strong> from sensor transmission</li>
+                                        <li><strong>Zero downtime</strong> during production rollout</li>
+                                        <li>Multi-tenant dashboard supporting multiple customer organizations</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <h4 class="h6 fw-bolder text-white mb-2">What I Owned</h4>
+                                <p class="text-light mb-0">
+                                    Platform architecture • Sensor integration (LoRaWAN codecs for Dragino devices) • 
+                                    Real-time data ingestion pipeline • Alert rule engine and notification system • 
+                                    Customer-facing React dashboards • PostgreSQL/TimescaleDB schema design • 
+                                    ChirpStack configuration and gateway management • Deployment pipeline (OCI, Fly.io, Vercel) • 
+                                    Production monitoring and incident response • Multi-tenant data isolation
+                                </p>
+                            </div>
+
+                            <div class="mb-4">
+                                <h4 class="h6 fw-bolder text-white mb-2">Stack</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="text-light ps-3 mb-0">
+                                            <li><strong>Frontend:</strong> React, Redux</li>
+                                            <li><strong>Backend:</strong> FastAPI (Python)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="text-light ps-3 mb-0">
+                                            <li><strong>Data:</strong> PostgreSQL, TimescaleDB</li>
+                                            <li><strong>Infrastructure:</strong> OCI, Fly.io, Vercel</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 d-flex flex-wrap gap-2">
+                                <a class="btn btn-primary btn-sm"
+                                    href="mailto:adam@troxellendeavors.com?subject=Dart%20Solutions%20Platform%20-%20Request%20for%20Details">
+                                    Request Details
+                                </a>
+                                <a class="btn btn-outline-light btn-sm" href="#contact">Contact Me</a>
+                            </div>
+
+                            <div class="text-light mt-3" style="font-size: 0.95rem;">
+                                Note: This is a production system serving live commercial customers. Code and detailed artifacts available upon request.
+                            </div>
                         </div>
-                        <div>
-                            <h3 class="fw-bolder mb-1">Dart Solutions Platform</h3>
-                            <div class="text-white-50">Real-time IoT monitoring platform for commercial facilities</div>
+                    </div>
+                </div>
+
+                <!-- SECONDARY: WanderWise + Energy Audit Portal -->
+                <div class="row gx-5">
+
+                    <!-- WanderWise -->
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                            <h2 class="mb-0">𝕎𝕎</h2>
+                        </div>
+
+                        <h3 class="h4 fw-bolder">WanderWise</h3>
+                        <p class="text-light mb-3">
+                            A trip planning application designed to consolidate scattered travel workflows—itineraries, 
+                            packing lists, and location tracking—into a single organized interface.
+                        </p>
+
+                        <div class="mb-3">
+                            <h4 class="h6 fw-bolder text-white mb-2">Engineering Focus</h4>
+                            <ul class="text-light ps-3 mb-0" style="font-size: 0.95rem;">
+                                <li>State management for nested data structures (trips → locations → checklist items)</li>
+                                <li>Real-time filtering and search across complex itinerary data</li>
+                                <li>Normalized PostgreSQL schema for relational trip planning entities</li>
+                                <li>Map integration for location persistence and visualization</li>
+                            </ul>
+                        </div>
+
+                        <div class="text-light mb-3">
+                            <strong>Stack:</strong> React, Redux, Express, Node.js, PostgreSQL
+                        </div>
+
+                        <p class="mb-3">
+                            <img src="dist/assets/wanderwise-portolio.png" alt="WanderWise itinerary interface showing multi-day trip planning with nested activities, map locations, and collaboration features" class="img-fluid rounded border border-light">
+                        </p>
+                        
+                        <div class="text-light mt-2" style="font-size: 0.9rem;">
+                            Multi-day itinerary planner with collaborative trip management and location tracking
+                        </div>
+
+                        <div class="d-flex flex-wrap gap-2 mt-3">
+                            <a class="btn btn-primary btn-sm" href="https://wanderwise-at.fly.dev/" target="_blank"
+                                rel="noopener">
+                                Live Demo <i class="bi bi-box-arrow-up-right"></i>
+                            </a>
                         </div>
                     </div>
 
-                    <p class="mb-3">
-                        Built as sole engineer and CTO at RJ Energy Solutions—a production system delivering
-                        real-time sensor telemetry, automated alerting, and operational dashboards for
-                        commercial facilities across two sites and 50+ active sensors.
-                    </p>
-                    <div class="mb-4 text-center">
-                        <img src="dist/assets/DSPflow.png"
-                            alt="Dart Solutions Platform architecture diagram showing LoRa sensors, ChirpStack, backend API, database, and dashboard"
-                            class="img-fluid rounded border border-light"
-                            style="max-width: 100%; background: rgba(0,0,0,0.4); padding: 10px;">
-                        <div class="text-white-50 mt-2" style="font-size: 0.9rem;">
-                            High-level architecture of the Dart Solutions Platform IoT data pipeline
+                    <!-- Energy Audit Portal -->
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                            <i class="bi bi-building"></i>
                         </div>
-                    </div>
-                    <div class="mb-4 text-center">
-                        <img src="dist/assets/grafana-portfolio.png"
-                            alt="Production Grafana dashboard showing real-time sensor telemetry, cost tracking, and multi-sensor health monitoring"
-                            class="img-fluid rounded border border-light"
-                            style="max-width: 100%; background: rgba(0,0,0,0.4); padding: 10px;">
-                        <div class="text-white-50 mt-2" style="font-size: 0.9rem;">
-                            Production monitoring dashboard: real-time sensor data, cost tracking, and operational
-                            metrics
-                        </div>
-                    </div>
 
-                    <div class="row g-4 mb-4">
-                        <div class="col-md-6">
-                            <h4 class="h6 fw-bolder text-white mb-2">Problem</h4>
-                            <p class="text-white-50">
-                                Client needed real-time visibility into distributed industrial equipment with
-                                immediate alerting on critical conditions. Existing tools required manual monitoring
-                                and lacked multi-site coordination.
+                        <h3 class="h4 fw-bolder">Energy Audit Portal <span class="text-light">(Proof of Concept)</span></h3>
+                        <p class="text-light mb-3">
+                            Replaced a manual Google Sheets workflow for tracking facility equipment audits, 
+                            cost analysis, and carbon footprint calculations with a structured multi-stage review pipeline.
+                        </p>
+
+                        <div class="mb-3">
+                            <h4 class="h6 fw-bolder text-white mb-2">Engineering Focus</h4>
+                            <ul class="text-light ps-3 mb-0" style="font-size: 0.95rem;">
+                                <li>Multi-stage approval pipeline (draft → review → approved)</li>
+                                <li>Role-based permissions and access control (Passport.js)</li>
+                                <li>Data validation rules and input constraints</li>
+                                <li>PDF report generation from audit data</li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-3">
+                            <h4 class="h6 fw-bolder text-white mb-2">Impact</h4>
+                            <p class="text-light mb-0" style="font-size: 0.95rem;">
+                                Transformed a 2-day spreadsheet-based audit process into a real-time structured workflow 
+                                with audit trails and automated report generation.
                             </p>
                         </div>
 
-                        <div class="col-md-6">
-                            <h4 class="h6 fw-bolder text-white mb-2">Constraints</h4>
-                            <ul class="text-white-50 ps-3 mb-0">
-                                <li>Multi-tenant architecture from day one</li>
-                                <li>Sub-2-minute alert latency requirement</li>
-                                <li>LoRaWAN codec complexity for multiple sensor types</li>
-                                <li>24/7 uptime expectations on production sites</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="row g-4 mb-4">
-                        <div class="col-md-6">
-                            <h4 class="h6 fw-bolder text-white mb-2">Key Engineering Decisions</h4>
-                            <ul class="text-white-50 ps-3 mb-0">
-                                <li><strong>ChirpStack</strong> for LoRaWAN gateway management and sensor orchestration
-                                </li>
-                                <li><strong>FastAPI</strong> for low-latency webhook processing and API endpoints</li>
-                                <li><strong>TimescaleDB</strong> for time-series optimized sensor data storage</li>
-                                <li><strong>Webhook-based alerting</strong> for immediate notification delivery</li>
-                            </ul>
+                        <div class="text-light mb-3">
+                            <strong>Stack:</strong> React, Redux, Express, Node.js, Passport.js, Material UI
                         </div>
 
-                        <div class="col-md-6">
-                            <h4 class="h6 fw-bolder text-white mb-2">Results</h4>
-                            <ul class="text-white-50 ps-3 mb-0">
-                                <li>Deployed across <strong>2 commercial sites</strong> with <strong>50+ active
-                                        sensors</strong></li>
-                                <li>Alerts delivered in <strong>under 2 minutes</strong> from sensor transmission</li>
-                                <li><strong>Zero downtime</strong> during production rollout</li>
-                                <li>Multi-tenant dashboard supporting multiple customer organizations</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="mb-4">
-                        <h4 class="h6 fw-bolder text-white mb-2">What I Owned</h4>
-                        <p class="text-white-50 mb-0">
-                            Platform architecture • Sensor integration (LoRaWAN codecs for Dragino devices) •
-                            Real-time data ingestion pipeline • Alert rule engine and notification system •
-                            Customer-facing React dashboards • PostgreSQL/TimescaleDB schema design •
-                            ChirpStack configuration and gateway management • Deployment pipeline (OCI, Fly.io, Vercel)
-                            •
-                            Production monitoring and incident response • Multi-tenant data isolation
+                        <p class="mb-3">
+                            <img src="dist/assets/audit-portal-report.png" alt="Energy Audit Portal showing completed facility audit with automated carbon footprint calculations, cost analysis, and generated recommendations" class="img-fluid rounded border border-light">
                         </p>
-                    </div>
+                        
+                        <div class="text-light mt-2" style="font-size: 0.9rem;">
+                            Completed audit report with automated calculations, multi-stage approval workflow, and generated recommendations
+                        </div>
 
-                    <div class="mb-4">
-                        <h4 class="h6 fw-bolder text-white mb-2">Stack</h4>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <ul class="text-white-50 ps-3 mb-0">
-                                    <li><strong>Frontend:</strong> React, Redux</li>
-                                    <li><strong>Backend:</strong> FastAPI (Python)</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul class="text-white-50 ps-3 mb-0">
-                                    <li><strong>Data:</strong> PostgreSQL, TimescaleDB</li>
-                                    <li><strong>Infrastructure:</strong> OCI, Fly.io, Vercel</li>
-                                </ul>
-                            </div>
+                        <div class="d-flex flex-wrap gap-2 mt-3">
+                            <a class="btn btn-outline-light btn-sm"
+                                href="https://github.com/adamtxl/energy-solutions-portal" target="_blank"
+                                rel="noopener">
+                                GitHub <i class="bi bi-github"></i>
+                            </a>
                         </div>
                     </div>
 
-                    <div class="mt-4 d-flex flex-wrap gap-2">
-                        <a class="btn btn-primary btn-sm"
-                            href="mailto:adam@troxellendeavors.com?subject=Dart%20Solutions%20Platform%20-%20Request%20for%20Details">
-                            Request Details
-                        </a>
-                        <a class="btn btn-outline-light btn-sm" href="#contact">Contact Me</a>
-                    </div>
-
-                    <div class="text-white-50 mt-3" style="font-size: 0.95rem;">
-                        Note: This is a production system serving live commercial customers. Code and detailed artifacts
-                        available upon request.
-                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- SECONDARY: WanderWise + Energy Audit Portal -->
-        <div class="row gx-5">
 
-            <!-- WanderWise -->
-            <div class="col-lg-6 mb-5 mb-lg-0">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    <h2 class="mb-0">𝕎𝕎</h2>
-                </div>
-
-                <h3 class="h4 fw-bolder">WanderWise</h3>
-                <p class="text-white-50 mb-3">
-                    A trip planning application designed to consolidate scattered travel workflows—itineraries,
-                    packing lists, and location tracking—into a single organized interface.
-                </p>
-
-                <div class="mb-3">
-                    <h4 class="h6 fw-bolder text-white mb-2">Engineering Focus</h4>
-                    <ul class="text-white-50 ps-3 mb-0" style="font-size: 0.95rem;">
-                        <li>State management for nested data structures (trips → locations → checklist items)</li>
-                        <li>Real-time filtering and search across complex itinerary data</li>
-                        <li>Normalized PostgreSQL schema for relational trip planning entities</li>
-                        <li>Map integration for location persistence and visualization</li>
-                    </ul>
-                </div>
-
-                <div class="text-white-50 mb-3">
-                    <strong>Stack:</strong> React, Redux, Express, Node.js, PostgreSQL
-                </div>
-
-                <p class="mb-3">
-                    <img src="dist/assets/wanderwise-portolio.png"
-                        alt="WanderWise itinerary interface showing multi-day trip planning with nested activities, map locations, and collaboration features"
-                        class="img-fluid rounded border border-light">
-                </p>
-                <div class="text-white-50 mt-2" style="font-size: 0.9rem;">
-                    Multi-day itinerary planner with collaborative trip management and location tracking
-                </div>
-
-                <div class="d-flex flex-wrap gap-2">
-                    <a class="btn btn-primary btn-sm" href="https://wanderwise-at.fly.dev/" target="_blank"
-                        rel="noopener">
-                        Live Demo <i class="bi bi-box-arrow-up-right"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Energy Audit Portal -->
-            <div class="col-lg-6 mb-5 mb-lg-0">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    <i class="bi bi-building"></i>
-                </div>
-
-                <h3 class="h4 fw-bolder">Energy Audit Portal <span class="text-white-50">(Proof of Concept)</span></h3>
-                <p class="text-white-50 mb-3">
-                    Replaced a manual Google Sheets workflow for tracking facility equipment audits,
-                    cost analysis, and carbon footprint calculations with a structured multi-stage review pipeline.
-                </p>
-
-                <div class="mb-3">
-                    <h4 class="h6 fw-bolder text-white mb-2">Engineering Focus</h4>
-                    <ul class="text-white-50 ps-3 mb-0" style="font-size: 0.95rem;">
-                        <li>Multi-stage approval pipeline (draft → review → approved)</li>
-                        <li>Role-based permissions and access control (Passport.js)</li>
-                        <li>Data validation rules and input constraints</li>
-                        <li>PDF report generation from audit data</li>
-                    </ul>
-                </div>
-
-                <div class="mb-3">
-                    <h4 class="h6 fw-bolder text-white mb-2">Impact</h4>
-                    <p class="text-white-50 mb-0" style="font-size: 0.95rem;">
-                        Transformed a 2-day spreadsheet-based audit process into a real-time structured workflow
-                        with audit trails and automated report generation.
-                    </p>
-                </div>
-
-                <div class="text-white-50 mb-3">
-                    <strong>Stack:</strong> React, Redux, Express, Node.js, Passport.js, Material UI
-                </div>
-
-                <p class="mb-3">
-                    <img src="dist/assets/audit-portal-report.png"
-                        alt="Energy Audit Portal showing completed facility audit with automated carbon footprint calculations, cost analysis, and generated recommendations"
-                        class="img-fluid rounded border border-light">
-                </p>
-                <div class="text-white-50 mt-2" style="font-size: 0.9rem;">
-                    Completed audit report with automated calculations, multi-stage approval workflow, and generated
-                    recommendations
-                </div>
-
-                <div class="d-flex flex-wrap gap-2">
-                    <a class="btn btn-outline-light btn-sm" href="https://github.com/adamtxl/energy-solutions-portal"
-                        target="_blank" rel="noopener">
-                        GitHub <i class="bi bi-github"></i>
-                    </a>
-                </div>
-            </div>
-
-        </div>
         <!-- Contact section-->
         <section class="bg-light py-5" id="contact">
             <div class="container px-5 my-5 px-5 ">
